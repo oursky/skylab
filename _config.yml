@@ -21,6 +21,7 @@ url: "http://david90.github.io/skylab/" # the base hostname & protocol for your 
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
+gacode: "UA-135704027-1"
 
 # Build settings
 markdown: kramdown
