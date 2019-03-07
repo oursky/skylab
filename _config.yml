@@ -16,7 +16,7 @@ keep_files:
 # Site settings
 title: Airspace
 subtitle: "A free HTML5 agency template"
-url: "http://david90.github.io/skylab/" # the base hostname & protocol for your site
+url: "https://skylab.davidng.hk/" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
@@ -26,6 +26,8 @@ gacode: "UA-135704027-1"
 # Build settings
 markdown: kramdown
 
+permalink: /:categories/:title
+
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
@@ -34,5 +36,5 @@ descriptions:
   - cat: jekyll
     desc: "Posts describing Jekyll setup techniques."
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: product
+    desc: "Our listed AI solutions"
