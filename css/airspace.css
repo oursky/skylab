@@ -507,17 +507,6 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 6px;
   position: relative;
 }
-#portfolio-work .block .portfolio-contant ul li:hover .overly {
-  opacity: 1;
-}
-#portfolio-work .block .portfolio-contant ul li:hover .position-center {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0%, -50%);
-  -moz-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
-}
 #portfolio-work .block .portfolio-contant ul li a {
   display: block;
   color: #fff;
@@ -545,17 +534,20 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.9);
-  opacity: 0;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 1;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
   text-align: center;
 }
+#portfolio-work .block .portfolio-contant ul li .overly:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
 #portfolio-work .block .portfolio-contant .position-center {
   position: absolute;
+  width: 100%;
   top: 50%;
-  left: 10%;
   -webkit-transform: translate(0%, 50%);
   -moz-transform: translate(0%, 50%);
   -ms-transform: translate(0%, 50%);
@@ -563,6 +555,15 @@ font header .navbar-default .navbar-nav li a:hover {
   -webkit-transition: .5s all;
   -o-transition: .5s all;
   transition: .5s all;
+  padding: 10px;
+}
+#portfolio-work .block .portfolio-contant ul li .position-center {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
 }
 #portfolio-work .block .mix {
   display: none;
