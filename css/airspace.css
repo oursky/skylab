@@ -185,7 +185,18 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 90px 0;
 }
 #service .service-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
   padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  border: #fff solid 1px;
+  cursor: pointer;
+}
+#service .service-item:hover {
+  /*background-color: #fefefe;*/
+  border: #ddd solid 1px;
 }
 #service .service-item i {
   font-size: 60px;
