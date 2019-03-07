@@ -1,6 +1,12 @@
 # Skylab.ai Landing Page Template
 Using _Airspace_ for Jekyll
-![screenshot](screenshots/home.png "Description goes here")
+![screenshot](screenshots/home.png "Skylab preview")
+
+## Structure
+
+* Main Page
+* Posts
+
 
 ## Steps for Setup:
 
@@ -14,6 +20,7 @@ ruby [version number] (date) [your platform]
 ```
 
 If you get something like `"Error, command not found"` visit the link above and install Ruby for your platform.
+
 
 ### Make sure you have Jekyll
 
