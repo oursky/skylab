@@ -14,8 +14,8 @@ keep_files:
 
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
+title: Skylab.ai
+subtitle: "Unlock your business values with our tailor-made artificial intelligence solutions"
 url: "https://skylab.davidng.hk/" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""

@@ -6,7 +6,7 @@ meta: "standard"
 categories: "product"
 ---
 
-#### No Worry. It's not an 404.
+#### Don't worry. It's not an 404.
 
 Thanks for your interest, and we are preparing content for this page.
 
