@@ -455,7 +455,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #3155A5, #1f1c2c 70%);
+  background: linear-gradient(to left, #42DD9E, #249DBE);
   opacity: 0.8;
 }
 #global-header .block {
