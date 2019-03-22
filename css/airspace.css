@@ -141,13 +141,15 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 60px;
   letter-spacing: 4px;
   padding-bottom: 45px;
+  font-feature-settings: "liga" 0;
 }
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  font-feature-settings: "liga" 0;
 }
 
 #slider a.btn-call-to-action {
@@ -261,6 +263,13 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 14px;
   line-height: 1.8;
 }
+
+#service .btn-view-works {
+  text-align: center;
+  background: #28A5BB;
+  color: #fff;
+  padding: 10px 20px;
+}
 /*--
 	call-to-action Start
 --*/
@@ -292,7 +301,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 30px;
 }
 #call-to-action p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.6;
 }
 #call-to-action .btn-call-to-action {
@@ -421,6 +430,11 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #28A5BB;
   color: #fff;
   padding: 10px 20px;
+}
+
+.technology {
+  background: #f9f9f9;
+  border-bottom: #ddd solid 1px;
 }
 /*--
 	features Start
