@@ -175,18 +175,18 @@ px      68    160    252    */
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  #slider {
-    padding-top: 90px;
-    padding-bottom: 100px;
+  #slider:before {
+    background-position: right -600px center;
   }
   #slider .block {
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 36px;
   }
   #slider .block p {
-    font-size: 13px;
+    font-size: 16px;
   }
   /*--
 	wrapper Start 
@@ -206,6 +206,7 @@ px      68    160    252    */
 --*/
   #service {
     padding-top: 100px;
+    font-family: freight-sans-pro, sans-serif;
   }
   #service .thumbnail {
     padding-bottom: 70px;
@@ -383,9 +384,7 @@ px      68    160    252    */
   /*--
 	footer Start 
 --*/
-  footer .footer-manu {
-    display: none;
-  }
+  
 }
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.

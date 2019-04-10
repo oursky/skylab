@@ -6,6 +6,7 @@
  * 
  */
 
+@import url(//fonts.googleapis.com/css?family=Cantarell:400,300,600);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
@@ -14,7 +15,7 @@
 	Common Css
 --*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cantarell', 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -23,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open-sans', sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -56,15 +57,14 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
+  font-family: freight-sans-pro, sans-serif;
   color: #666;
 }
 /*--
 	Header Start
 --*/
 header {
-  background: #fff;
+  background: #000;
   padding: 20px 0;
 }
 header .navbar {
@@ -82,28 +82,52 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: #fff;
   padding: 10px 26px;
   font-size: 15px;
 }
-font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+header .navbar-default .navbar-nav li a:hover {
+  color: #3773FF;
 }
 
-.navbar-header .logo,
-.navbar-header .logo a {
+header .navbar-header .logo {
+  margin-top: 15px;
+}
+
+header .navbar-header .logo,
+header .navbar-header .logo a {
   color: #28A5BB;
   font-size: 2.3rem;
 }
 
-.navbar-header .logo .by-oursky,
-.navbar-header .logo .by-oursky a {
-  font-size: 1rem;
-  color: #999;
-  padding-top: 4px;
+header .navbar-header .logo .skylab-logo {
+  width: 114px;
+  height: 21px;
+  background-size: 114px 21px;
+  background-image: url("../img/logo-skylab.svg")
 }
 
+header .navbar-header .logo .by-oursky,
+header .navbar-header .logo .by-oursky a {
+  font-size: 1rem;
+  color: #fff;
+  padding-top: 4px;
+  text-transform: uppercase;
+}
 
+header .navbar-nav .cta {
+  border-radius: 4px;
+  border: #fff solid 1px;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+header .navbar-default .navbar-nav li a.cta:hover {
+  background-color: #fff;
+  font-size: 15px;
+  color: #3773FF;
+}
 
 /*---------------------------------------------
 					Index Start
@@ -112,41 +136,37 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/slider-bg-3.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 10% 0%;
-  padding: 100px 0 180px 0;
+  background: #000;
   position: relative;
 }
 #slider:before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #42DD9E, #249DBE);
-  opacity: 0.8;
+  background: url("../img/slider-bg.svg") no-repeat;
+  /*background-attachment: fixed;*/
+  background-position: right -380px center;
 }
+
 #slider .block {
   color: #E3E3E4;
+  padding: 100px 0 180px 0;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cantarell', sans-serif;
   font-weight: 600;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 4px;
   padding-bottom: 45px;
   font-feature-settings: "liga" 0;
+  text-transform: uppercase;
 }
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cantarell', sans-serif;
   font-weight: 400;
   letter-spacing: 2px;
   font-feature-settings: "liga" 0;
@@ -168,7 +188,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider a.btn-call-to-action:hover {
   background-color: #fff;
   font-size: 15px;
-  color: #28A5BB;
+  color: #3773FF;
 }
 /*--
 	wrapper Start
@@ -176,14 +196,37 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro {
   padding: 80px 0;
 }
-#intro .block h2 {
-  padding-top: 35px;
+#intro h2 {
+  font-size: 22px;
+  font-family: 'Cantarell';
+  line-height: 35px;
+  padding-bottom: 25px;
   line-height: 27px;
   margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3773FF;
 }
-#intro .block p {
-  color: #7B7B7B;
-  padding-top: 20px;
+#intro .desc {
+  font-family: freight-sans-pro, sans-serif;
+  font-size: 20px;
+  color: #757575;
+  letter-spacing: auto;
+  font-weight: 200;
+  line-height: 26px;
+}
+
+#intro h3 {
+  font-family: 'Cantarell';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#intro p {
+  font-family: FreightSansProMedium-Regular, sans-serif;
+  font-size: 14px;
+  color: #757575;
+  letter-spacing: 0;
+  line-height: 22px;
 }
 #intro .block img {
   padding-left: 40px;
@@ -201,7 +244,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #intro .feature-list li:before {
     content:"✓ ";
-    font-size: 20x;
+    font-size: 20px;
     vertical-align:middle;
     line-height:20px;
 }
@@ -215,9 +258,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #intro .our-services {
-  padding: 10px 20px;
-  min-height: 300px;
-  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.26);
+  min-height: 220px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -230,31 +271,41 @@ font header .navbar-default .navbar-nav li a:hover {
 	service Start
 --*/
 #service {
-  text-align: center;
   padding: 90px 0;
+  text-align: center;
 }
+
+#service h2 {
+  font-size: 22px;
+  font-family: 'Cantarell';
+  line-height: 35px;
+  padding-bottom: 25px;
+  line-height: 27px;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3773FF;
+}
+
 #service .service-item {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-radius: 20px;
-  border: #fff solid 1px;
   cursor: pointer;
-}
-#service .service-item:hover {
-  /*background-color: #fefefe;*/
   border: #ddd solid 1px;
+  min-height: 150px;
 }
 #service .service-item i {
   font-size: 60px;
   color: #4A4656;
 }
 #service .service-item h4 {
-  padding-top: 20px;
+  padding-top: 8px;
   margin: 0;
   color: #666;
+  text-align: left;
 }
 #service .service-item p {
   color: #888;
@@ -264,59 +315,118 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 1.8;
 }
 
-#service .btn-view-works {
+#service .view-all {
   text-align: center;
-  background: #28A5BB;
-  color: #fff;
-  padding: 10px 20px;
 }
+
+#service .view-all h4 {
+  font-family: "FreightSansProBook", sans-serif;
+  font-weight: 600;
+  color: #333;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+#service .view-all .btn {
+  font-family: FreightSansProBook-Regular, sans-serif;
+  font-size: 14px;
+  color: #3773FF;
+  letter-spacing: 0;
+  border: 1px solid #3773FF;
+  text-align: center;
+  padding: 10px 20px;
+  width: 180px;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+#service .view-all .btn:hover {
+  color: #fff;
+  background-color: #3773FF;
+}
+
+#service .highlight-banner {
+  width:100%;
+  height: 100px;
+  background: #eee;
+}
+
+#service .case-container {
+  text-align: left;
+}
+
+#service .case1 .highlight-banner {
+  background-size: cover;
+  background-image: url("../img/cases/case-formocr.jpg")
+}
+
+#service .case2 .highlight-banner {
+  background-size: cover;
+  background-image: url("../img/cases/case-ai-store.jpg")
+}
+
+#service .case3 .highlight-banner {
+  background-size: cover;
+  background-image: url("../img/cases/case-personalized-recommendation-engine.jpg")
+}
+
+#service .case4 .highlight-banner {
+  background-size: cover;
+  background-image: url("../img/cases/case-forecast-model.jpg")
+}
+
 /*--
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #F7F7F7;
   padding: 70px 0px;
   position: relative;
-  text-align: center;
-  color: #fff;
+  color: #333333;
 }
-#call-to-action:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: #295B6B;
-  opacity: 0.8;
-}
+
 #call-to-action h2 {
-  padding-bottom: 20px;
-  line-height: 33px;
+  font-size: 22px;
+  font-family: 'Cantarell';
+  line-height: 35px;
+  padding-bottom: 25px;
+  line-height: 27px;
   margin: 0;
-  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3773FF;
+}
+
+#call-to-action .logo-container {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 #call-to-action p {
-  font-size: 18px;
-  line-height: 1.6;
+  font-family: FreightSansProBook-Regular, sans-serif;
+  font-size: 13px;
+  color: #333333;
 }
 #call-to-action .btn-call-to-action {
-  padding: 15px 35px;
-  border: none;
-  background-color: #fff;
+  padding: 10px 35px;
+  border: 1px solid #3773FF;
+  background-color: transparent;
   font-size: 15px;
-  color: #295B6B;
+  color: #3773FF;
   margin-top: 30px;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+#call-to-action .btn-call-to-action:hover {
+  color: #fff;
+  background-color: #3773FF;
 }
 /*--
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/cta-background.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -325,7 +435,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #fff;
+  background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -341,30 +451,43 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
+  color: #fff;
+  font-family: "Cantarell";
 }
 #feature p {
   color: #8d8f92;
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
-  background: #28A5BB;
+  background: #E57546;
   color: #fff;
   padding: 10px 20px;
+  width: 178px;
+}
+
+#feature .btn-view-works:hover {
+  color: #E57546;
+  background-color: #fff;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  border: #E57546 solid 1px;
 }
 /*--
 	content Start
 --*/
 #testimonial {
-  padding: 100px 0;
+  padding-top: 40px;
 }
-#testimonial .block h2 {
-  line-height: 27px;
+#testimonial h2 {
+  line-height: 18px;
+  font-family: "Cantarell";
   color: #5C5C5C;
-  padding-top: 110px;
+  text-transform: uppercase;
 }
-#testimonial .block p {
-  padding-top: 50px;
+#testimonial p {
   color: #7B7B7B;
+  font-family: freight-sans-pro, sans-serif;
 }
 #testimonial .counter-box li {
   width: 50%;
@@ -433,8 +556,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .technology {
-  background: #f9f9f9;
-  border-bottom: #ddd solid 1px;
+  background: #F8F1EB;
 }
 /*--
 	features Start
@@ -469,7 +591,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #42DD9E, #249DBE);
+  background: linear-gradient(to left, #000000, #383838);
   opacity: 0.8;
 }
 #global-header .block {
@@ -480,8 +602,8 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #global-header .block h1 {
   font-weight: 100;
+  font-family: "Cantarell";
   font-size: 45px;
-  letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;
@@ -870,10 +992,9 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start
 --*/
 footer {
-  background: #F5F5F5;
-  text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
+  background: #121212; 
+  padding-top: 40px;
+  font-family: FreightSansProBold-Regular, sans-serif;
 }
 footer p {
   font-size: 13px;
@@ -881,23 +1002,50 @@ footer p {
   color: #919191;
 }
 footer a {
-  color: #595959;
+  color: #fff;
 }
 footer .footer-manu {
   padding-bottom: 25px;
+
 }
 footer .footer-manu ul {
-  margin: 0px;
+  margin: 20px 0px;
   padding: 0px;
 }
 footer .footer-manu ul li {
-  display: inline-block;
-  padding: 0px 20px;
+  display: block;
 }
 footer .footer-manu ul li a {
-  display: inline-block;
-  color: #494949;
+  color: #fff;
 }
 footer .footer-manu ul li a:hover {
-  color: #000;
+  color: #3773FF;
+}
+
+footer .footer-content {
+  min-height: 200px;
+}
+
+footer .skylab-logo {
+  width: 114px;
+  height: 21px;
+  background-size: 114px 21px;
+  background-image: url("../img/logo-skylab.svg")
+}
+
+footer hr.footer-splitter {
+  border-top: 1px solid #444444;
+}
+
+footer .oursky-logo {
+  width: 114px;
+  height: 21px;
+  background-size: 114px 21px;
+  margin-left: -6px;
+  margin-bottom: 6px;
+  background-image: url("../img/logo-oursky.svg")
+}
+
+footer .oursky-container {
+  height: 80px;
 }
