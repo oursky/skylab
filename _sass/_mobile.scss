@@ -1,0 +1,55 @@
+@media screen and (max-width: 520px) {
+
+	header {
+		padding: 0;
+		position: fixed;
+		z-index: 999;
+		top:0;
+		left: 0;
+		width: 100%;
+
+		.by-oursky {
+			display: none;
+		}
+
+		.navbar-collapse {
+			border-top: none;
+			box-shadow: none;
+		}
+
+		.navbar-default .navbar-toggle {
+			margin-top: 7px;
+			margin-bottom: 5px;
+			margin-right: 0;
+		}
+
+		.navbar-default .navbar-nav  {
+			li a {
+				padding: 8px 0;
+			}
+
+			a.cta {
+				margin-left: 0;
+				text-align: center;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+		}
+
+		.navbar-toggle {
+			border: none;
+		}
+
+		.navbar-header .logo {
+			margin-top: 15px;
+
+			.skylab-logo {
+				width: 110px;
+				height: 20px;
+				background-size: 110px 20px;
+			}
+		}
+
+	}
+
+}
