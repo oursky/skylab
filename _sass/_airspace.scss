@@ -67,7 +67,7 @@
 	Common Css
 --*/
 body {
-  font-family: 'Cantarell', 'Open Sans', sans-serif;
+  font-family: 'Cantarell', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -76,7 +76,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open-sans', sans-serif;
+  font-family: 'Cantarell', sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -100,6 +100,7 @@ a:active,
 a:focus,
 a:active {
   text-decoration: none !important;
+  color: #3773FF;
 }
 .section-title {
   margin-bottom: 70px;
@@ -679,21 +680,29 @@ header .navbar-default .navbar-nav li a.cta:hover {
   padding: 80px 0;
 }
 #portfolio-work .block .portfolio-menu {
+
+  h3 {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
   padding-bottom: 30px;
   text-align: center;
 }
 #portfolio-work .block .portfolio-menu ul {
-  border: 1px solid #999999;
+  border: none;
   display: inline-block;
   margin-bottom: 40px;
 }
 #portfolio-work .block .portfolio-menu ul li {
   display: inline-block;
-  padding: 0px 25px;
+  padding: 0px 10px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 40px;
-  font-weight: 600;
+  font-weight: 300;
   color: #333333;
   text-transform: capitalize;
   position: relative;
@@ -742,7 +751,7 @@ header .navbar-default .navbar-nav li a.cta:hover {
 }
 #portfolio-work .block .portfolio-contant ul li {
   float: left;
-  width: 32.22%;
+  width: calc(33.33% - 12px);
   overflow: hidden;
   margin: 6px;
   position: relative;
@@ -808,6 +817,11 @@ header .navbar-default .navbar-nav li a.cta:hover {
 #portfolio-work .block .mix {
   display: none;
 }
+
+.discover__more {
+  margin: 50px 0;
+}
+
 /*--
 	wrapper-work Start
 --*/
