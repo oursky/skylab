@@ -38,3 +38,7 @@ descriptions:
 
   - cat: product
     desc: "Our listed AI solutions"
+
+sass:
+    style: compressed
+    sass_dir: _sass
