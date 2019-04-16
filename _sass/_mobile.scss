@@ -1,5 +1,7 @@
 @media screen and (max-width: 520px) {
 
+
+
 	header {
 		padding: 0;
 		position: fixed;
@@ -71,9 +73,12 @@
 		font-size: 9px;
 	}
 
-	#call-to-action h2 {
+	#call-to-action {
+
+		
 		text-align: center;
-	}
+		
+		}
 
 	#service p {
 		margin-left: 10px;
@@ -92,6 +97,16 @@
 	#testimonial p {
 		margin-left: 10px;
 		margin-right: 10px;
+		line-height: 1.6;
+	}
+
+	#global-header .block {
+		padding: 0;
+		text-align: center;
+	}
+
+	.post-area p {
+		font-size: 16px;
 		line-height: 1.6;
 	}
 
