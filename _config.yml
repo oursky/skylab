@@ -18,7 +18,7 @@ title: Skylab.ai
 subtitle: "Unlock your business values with our tailor-made artificial intelligence solutions"
 url: "" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: ""
+baseurl: "/skylab"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 gacode: "UA-135704027-1"
