@@ -180,6 +180,7 @@ header .navbar-nav .cta {
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
+  margin-left: 30px;
 }
 
 header .navbar-default .navbar-nav li a.cta:hover {
