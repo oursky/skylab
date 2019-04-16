@@ -52,4 +52,47 @@
 
 	}
 
+	#slider:before { 
+		background-position: -155vw 45vh;
+		background-size: 280vw auto;
+		opacity: 0.2;
+	}
+
+
+	#slider .block p {
+		line-height: 1.3;
+	}
+
+	#intro .desc {
+		margin-bottom: 8rem;
+	}
+
+	#call-to-action .logo-container {
+		font-size: 9px;
+	}
+
+	#call-to-action h2 {
+		text-align: center;
+	}
+
+	#service p {
+		margin-left: 10px;
+		margin-right: 10px;
+		line-height: 1.6;
+	}
+
+	#service .view-all .btn {
+		width: 40vw;
+	}
+
+	.section-title h2 {
+		font-size: 18px;
+	}
+
+	#testimonial p {
+		margin-left: 10px;
+		margin-right: 10px;
+		line-height: 1.6;
+	}
+
 }
