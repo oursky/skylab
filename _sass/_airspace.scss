@@ -974,6 +974,21 @@ header .navbar-default .navbar-nav li a.cta:hover {
   font-size: 18px;
 }
 
+#contact-form #skylab-form-success {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#contact-form #skylab-form-error {
+  text-align: center;
+  background: #fff4f4;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ee0000;
+}
+
 /*--
 post
 --*/

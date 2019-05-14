@@ -15,10 +15,13 @@ Today it's not enough to just attract visitors to your site. The mission is not 
 With our powerful personalized recommendation engine, you can now touch a customer's heart with accurate predictions and cross-sell the right products. Our AI specialists can help to build a custom recommendation engine for your website and online store. You are now able to make use of offline store data for more precise analytics and rock your sales.
 
 
-### Client Case Study
+### Case Study
 
-#### Village.co
-Village.co, a UK-based C2C marketplace startup, is eager to increase the sales on their marketplace. However, they find it hard to discover what kinds of products that users are interested in. Our well-trained AI engine helps to determine which listings to show and their rankings based on a user's behavioral data. For example, if a user typed a certain keywords, or if he/she viewed several items in the same category, the engine would recommend related items for the specific user. After implementation, *the 5-day retention rate boost up to 22% within 2 weeks*.
+#### A popular e-commerce platform in UK
+A UK-based C2C marketplace startup is eager to increase the sales on their marketplace. However, they find it hard to discover what kinds of products that users are interested in. Our well-trained AI engine helps to determine which listings to show and their rankings based on a user's behavioral data. For example, if a user typed a certain keywords, or if he/she viewed several items in the same category, the engine would recommend related items for the specific user. After implementation, *the 5-day retention rate boost up to 22% within 2 weeks*.
 
-<img src="#" alt="Village app photo">
+<img src="#" alt="UK-based C2C marketplace application making use of Skylab's product recommendation engine">
+
+> UK-based C2C marketplace application making use of Skylab's product recommendation engine
+
 
