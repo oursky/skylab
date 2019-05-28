@@ -16,7 +16,7 @@ Having an accurate prediction or forecast is meaningful to the hospitality indus
 Artificial intelligence is well-known for its ability of making prediction and forecast. It is a powerful tool that help you verify your assumptions by examining if there is any correlation between the variation of different parameters. It can also improve the accuracy from analysis of past record and help you make statistically sound decisions.
 
 
-### Client Case Study
+### Case Study
 
 #### Store Cannibalization Forecast
 The largest health & beauty care chain store in Asia would like to get insights for strategic planning of where to open new stores. One of the essential factors to be considered is that whether the revenue of the branches nearby will be affected when there is a new store opened in the same area. To verify client's assumption, we built a forecast model based on the branch opening pattern and revenue data in the past so that our client could know better about how opening a new store would impact the revenue of other stores

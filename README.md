@@ -49,5 +49,9 @@ And run the server:
 $ jekyll serve
 ```
 
+### Contact form email
+
+Email is sent using zapier webhook -> AWS Simple Email Service (SES)
+
 ### Attribution
 This Jekyll theme is a port of ThemeFisher's Airspace template. It is released under ThemeFisher's free license, which requires attribution.
