@@ -45,6 +45,16 @@ $(document).ready(function(){
         time: 1000
     });
 
+    var $win = $(window);
+
+     $win.scroll(function () {
+         if ($win.scrollTop() <= 0)
+            $('#MainHeader').removeClass('bg');
+         else {
+         	 $('#MainHeader').addClass('bg');
+         }
+     });
+
 
 });
 
