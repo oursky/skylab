@@ -2,72 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cantarell:400,700');
 
 
-@font-face {
-    font-family: 'freight-sans-pro';
-    src: url('../fonts/freightsans_bold-webfont.eot');
-    src: url('../fonts/freightsans_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/freightsans_bold-webfont.woff2') format('woff2'),
-         url('../fonts/freightsans_bold-webfont.woff') format('woff'),
-         url('../fonts/freightsans_bold-webfont.ttf') format('truetype'),
-         url('../fonts/freightsans_bold-webfont.svg#freightsans_boldregular') format('svg');
-    font-weight: 700;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'freight-sans-pro';
-    src: url('../fonts/freightsans_medium-webfont.eot');
-    src: url('../fonts/freightsans_medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/freightsans_medium-webfont.woff2') format('woff2'),
-         url('../fonts/freightsans_medium-webfont.woff') format('woff'),
-         url('../fonts/freightsans_medium-webfont.ttf') format('truetype'),
-         url('../fonts/freightsans_medium-webfont.svg#freightsans_mediumregular') format('svg');
-    font-weight: 500;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'freight-sans-pro';
-    src: url('../fonts/freightsans_light-webfont.eot');
-    src: url('../fonts/freightsans_light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/freightsans_light-webfont.woff2') format('woff2'),
-         url('../fonts/freightsans_light-webfont.woff') format('woff'),
-         url('../fonts/freightsans_light-webfont.ttf') format('truetype'),
-         url('../fonts/freightsans_light-webfont.svg#freightsans_lightregular') format('svg');
-    font-weight: 300;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'freight-sans-pro';
-    src: url('../fonts/freightsans_book-webfont.eot');
-    src: url('../fonts/freightsans_book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/freightsans_book-webfont.woff2') format('woff2'),
-         url('../fonts/freightsans_book-webfont.woff') format('woff'),
-         url('../fonts/freightsans_book-webfont.ttf') format('truetype'),
-         url('../fonts/freightsans_book-webfont.svg#freightsansbook') format('svg');
-    font-weight: 400;
-    font-style: normal;
-
-}
 /* var text-decoration */
 /*--
 	Common Css
 --*/
 body {
-  font-family: 'Cantarell', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -111,7 +51,6 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: freight-sans-pro, sans-serif;
   color: #666;
 }
 /*--
@@ -149,6 +88,8 @@ header .navbar-default .navbar-nav li a {
   color: #fff;
   padding: 10px 26px;
   font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
 }
 header .navbar-default .navbar-nav li a:hover {
   color: #3773FF;
@@ -235,9 +176,7 @@ header .navbar-default .navbar-nav li a.cta:hover {
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: freight-sans-pro, sans-serif;
   font-weight: 400;
-  letter-spacing: 2px;
   font-feature-settings: "liga" 0;
 }
 
@@ -252,6 +191,7 @@ header .navbar-default .navbar-nav li a.cta:hover {
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 #slider a.btn-call-to-action:hover {
@@ -561,7 +501,6 @@ header .navbar-default .navbar-nav li a.cta:hover {
 }
 #testimonial p {
   color: #7B7B7B;
-  font-family: freight-sans-pro, sans-serif;
 }
 #testimonial .counter-box li {
   width: 50%;
@@ -984,7 +923,6 @@ header .navbar-default .navbar-nav li a.cta:hover {
   background: #47424C;
   border: none;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
@@ -1112,7 +1050,6 @@ post
 footer {
   background: #121212; 
   padding-top: 40px;
-  font-family: freight-sans-pro, sans-serif;
 }
 footer p {
   font-size: 13px;
