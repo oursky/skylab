@@ -1,4 +1,45 @@
+@media screen and (max-width: 990px) {
+
+	#sliderImg { 
+		background-position: -60vw 60vh;
+		background-size: 150vw auto;
+	}
+
+	.navbar-default .navbar-toggle {
+		padding-top: 0;
+		border:0;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background-color:none;
+	}
+
+	.navbar-default .navbar-nav  {
+			li a {
+				padding: 8px 0;
+			}
+
+			a.cta {
+				margin-left: 0;
+				text-align: center;
+			}
+		}
+
+}
+
+
+
+
 @media screen and (max-width: 520px) {
+
+	.navbar-default .navbar-toggle {
+		padding-top: 12px;
+		border:0;
+	}
 
 
 
@@ -25,18 +66,7 @@
 			margin-right: 0;
 		}
 
-		.navbar-default .navbar-nav  {
-			li a {
-				padding: 8px 0;
-			}
-
-			a.cta {
-				margin-left: 0;
-				text-align: center;
-				margin-top: 20px;
-				margin-bottom: 20px;
-			}
-		}
+		
 
 		.navbar-toggle {
 			border: none;
