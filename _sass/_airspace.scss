@@ -580,6 +580,36 @@ header .navbar-default .navbar-nav li a.cta:hover {
 #clients-logo-section .clients-logo-img {
   padding: 0px 50px;
 }
+
+
+
+/*--
+Stats
+--*/
+
+#stats {
+  background: #F7F7F7;
+  padding:50px 0 80px;
+
+  h2 {
+    color: #5C5C5C;
+    text-transform: uppercase;
+  }
+
+}
+
+.stats__count {
+  font-size: 42px;
+
+}
+
+.stats__footnotes{
+  font-size: 11px;
+  color: #aaa;
+  padding-top: 20px;
+}
+
+
 /*---------------------------------------------
 					Work Start
 -----------------------------------------------*/
