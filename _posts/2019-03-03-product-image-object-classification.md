@@ -16,7 +16,7 @@ Our image classification solution helped a puller manufacturer to improve their 
 
 Powered by a well-trained deep neural network, our image classification engine allows the client to do powerful search among images stored in a digitalized database. When the potential buyer asks about a particular zip puller, sales could just take a photo of the puller and the mobile system will do the rest. The image classification engine is capable to recognize the closest puller and the stock model number accurately in seconds. Chic and easy. It favors an effective and real-time communication between buyers and sales which helps closing the deal right away.
 
-<img src="{{ site.baseurl }}/img/puller.png" alt="Zip puller Case Study">
+<img src="{{ site.baseurl }}/img/puller.png" alt="Zip puller Case Study" style="padding:20px 0; max-width: 200px">
 
 <a href="https://code.oursky.com/tensorflow-svm-image-classifications-engine/" target="_blank">Read about </a> how we use Tensorflow to create a puller classification engine.
 
