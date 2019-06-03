@@ -23,7 +23,7 @@ permalink: /contact/
     <div class="row" id="skylab-form-wrapper">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
+          <form name="contact" method="POST" data-netlify="true">
             <div class="form-group">
               <input type="text" class="form-control contact-name" placeholder="Your Name">
             </div>
@@ -33,19 +33,14 @@ permalink: /contact/
             <div class="form-group">
               <input type="text" class="form-control contact-subject" placeholder="Message Subject">
             </div>
-          </form>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form id="skylab-form">
-            <div class="form-group-2">
-              <textarea class="form-control contact-message" rows="3" placeholder="Your Message - tell us more detail"></textarea>
+             <div class="form-group">
+             <textarea class="form-control contact-message" rows="3" placeholder="Your Message - tell us more detail"></textarea>
             </div>
             <button class="btn btn-default submit-form" type="submit">Send Message</button>
           </form>
         </div>
       </div>
+      
     </div>
     <div class="row hidden" id="skylab-form-error">
       <div class="col-md-12 col-sm-12">
@@ -105,6 +100,7 @@ permalink: /contact/
 
 <script>
 
+/*
 function sendForm(e) {
   e.preventDefault();
   let url = "https://hooks.zapier.com/hooks/catch/7208/jubndz/";
@@ -146,5 +142,6 @@ function sendForm(e) {
 $("#skylab-form").on("submit", sendForm);
 
 // $(".submit-form").on("click", makeMessage);
+*/
 
 </script>
