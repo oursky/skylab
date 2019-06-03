@@ -146,6 +146,7 @@ header .navbar-default .navbar-nav li a.cta:hover {
   position: relative;
   height: 100vh;
   min-height: 600px;
+  max-height: 1200px;
 }
 #sliderImg {
   content: "";
@@ -160,7 +161,6 @@ header .navbar-default .navbar-nav li a.cta:hover {
 
 #slider .block {
   color: #fff;
-  padding: 100px 0 180px 0;
 }
 #slider .block h1 {
   font-family: 'Raleway', sans-serif;
@@ -199,6 +199,22 @@ header .navbar-default .navbar-nav li a.cta:hover {
   font-size: 15px;
   color: #3773FF;
 }
+
+.slider__herotag__container {
+  position: relative;
+   height: 100vh;
+  min-height: 600px;
+  max-height: 1200px;
+}
+
+.slider__herotag__push {
+  position: absolute;
+  top:50%;
+  left:0;
+  transform: translateY(-50%);
+}
+
+
 /*--
 	wrapper Start
 --*/
