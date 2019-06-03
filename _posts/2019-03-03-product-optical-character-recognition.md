@@ -16,4 +16,3 @@ From now on you can free the staff from spending countless hours on manual class
 We deployed a system for a health care startup to automatically recognize the Medical Appointment receipt from mobile apps, to enable caretakers records and set up reminders quickly
 
 
-[Screencap of Form OCR Health Care here]
