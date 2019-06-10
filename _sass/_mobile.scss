@@ -17,17 +17,7 @@
 		}
 	}
 
-	header .navbar-default .navbar-nav {
-		padding-bottom: 20px;
-	}
-
-	header .navbar-default .navbar-nav li a {
-		padding-left: 0;
-	}
-
-	.navbar-default .navbar-nav a.cta {
-		margin-top: 30px;
-	}
+	
 
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background-color:none;
@@ -49,6 +39,12 @@
 		transform: translateY(0);
 	}
 
+	#sliderImg { 
+		height: 400px;
+		transform: scale(1);
+		background-size: auto 100%;
+	}
+
 
 }
 
@@ -56,6 +52,18 @@
 
 
 @media screen and (max-width: 520px) {
+
+	header .navbar-default .navbar-nav {
+		padding-bottom: 20px;
+	}
+
+	header .navbar-default .navbar-nav li a {
+		padding-left: 0;
+	}
+
+	.navbar-default .navbar-nav a.cta {
+		margin-top: 30px;
+	}
 
 	#sliderImg { 
 		height: 400px;
