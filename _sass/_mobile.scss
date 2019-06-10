@@ -8,7 +8,25 @@
 	}
 
 	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #333;
+	}
+
+	header.bg {
+		.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fff;
+		}
+	}
+
+	header .navbar-default .navbar-nav {
+		padding-bottom: 20px;
+	}
+
+	header .navbar-default .navbar-nav li a {
+		padding-left: 0;
+	}
+
+	.navbar-default .navbar-nav a.cta {
+		margin-top: 30px;
 	}
 
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -30,6 +48,8 @@
 		top:80px;
 		transform: translateY(0);
 	}
+
+
 }
 
 
