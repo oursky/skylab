@@ -13,6 +13,6 @@ Data is an important asset to enterprises. However, data processing can be an ex
 From now on you can free the staff from spending countless hours on manual classifying and typing. Our system converts documents/forms to text from the OCR engine, moreover, it converts the text into structured data. It works with different kinds of forms or receipts and turns them into Excel or JSON with just one click. We also offer an OCR API that integrates with the mobile application and converts image into structured data in JSON format. You do not need to spend time on restructuring from a pool of unorganized data. All you need to do is providing a standard form, our OCR form capturer will mark the position and return captured data in the format.
 
 ## Case Studies
-We deployed a system for a health care startup to automatically recognize the Medical Appointment receipt from mobile apps, to enable caretakers records and set up reminders quickly
+We deployed a system for a health care startup to automatically recognize the Medical Appointment receipt from mobile apps, to enable caretakers records and set up reminders quickly.
 
 
