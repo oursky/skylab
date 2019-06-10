@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Text Mining from Forms/Documents"
+title: "Optical Character Recognition"
 author: "skylab"
 meta: "standard"
 categories: "product"
