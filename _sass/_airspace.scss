@@ -1018,12 +1018,21 @@ post
   h1 {
     margin-bottom: 50px;
   }
+  padding-bottom: 50px;
 }
 
 .post__content {
-  h2 {
+  h1,h2,h3,h4,h5 {
     padding:10px 0 20px 0;
+    color: #333;
+    margin-top: 8rem;
   }
+
+  p {
+    margin-bottom: 3rem;
+  }
+
+
 }
 
 /*--
