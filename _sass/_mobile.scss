@@ -1,9 +1,6 @@
 @media screen and (max-width: 990px) {
 
-	#sliderImg { 
-		background-position: -60vw 60vh;
-		background-size: 150vw auto;
-	}
+	
 
 	.navbar-default .navbar-toggle {
 		padding-top: 0;
@@ -39,6 +36,10 @@
 
 
 @media screen and (max-width: 520px) {
+
+	#sliderImg { 
+		height: 400px;
+	}
 
 	.navbar-default .navbar-toggle {
 		padding-top: 12px;
@@ -88,11 +89,7 @@
 
 	}
 
-	#sliderImg { 
-		background-position: -115vw 57vh;
-		background-size: 220vw auto;
-	}
-
+	
 
 	#slider .block p {
 		line-height: 1.3;
